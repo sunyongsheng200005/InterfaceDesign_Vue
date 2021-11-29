@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 146, 212);
+}
+
+table {
+    text-align: center;
+}
+
+body {
+    height: 1200px;
+    min-width: 1510px;
+    background-color: rgb(0, 37, 89);
+}
+
+.backgroundblock {
+    width: 100%;
+    height: 100%;
+    background: url(../image/bgimg2.png) no-repeat;
+    background-size: 100% 728px;
+}
+
+
+/*
+    导航栏
+*/
+
+header {
+    background: url(../image/header.png) no-repeat;
+    height: 6.5%;
+    background-size: 100% 100%;
+}
+
+header li {
+    float: right;
+}
+
+header .nav {
+    padding-right: 40px;
+}
+
+header .nav ul li a {
+    display: block;
+    height: 63px;
+    padding: 0 25px;
+    line-height: 63px;
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid #cccccc;
+}
+
+header .headnav:hover {
+    background-image: radial-gradient(rgba(95, 136, 160, 0.9), rgba(46, 72, 92, 0.9));
+    border-bottom: rgb(47, 210, 251) solid 5px;
+}
+
+header .showTime {
+    position: absolute;
+    left: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 60px;
+    top: 0;
+}
+
+
+/*
+    网页主体
+*/
+
+.maincontainer {
+    width: 100%;
+    height: 95.5%;
+    /* padding-top: 10px; */
+}
+
+
+/*
+    左侧型号栏
+*/
+
+table {
+    text-align: center;
+    border-spacing: 0px;
+    color: white;
+}
+
+.container-left {
+    width: 10%;
+    background-color: rgba(24, 41, 61, 0.5);
+    float: left;
+    height: 100%;
+    overflow: auto;
+}
+
+.container-left table {
+    width: 100%;
+}
+
+.container-left table thead {
+    background-color: rgb(29, 96, 141);
+    height: 40px;
+    line-height: 40px;
+}
+
+.container-left table tbody {
+    height: 40px;
+    line-height: 40px;
+}
+
+.container-left table tbody td:hover {
+    background-color: rgb(29, 96, 141);
+}
+
+
+/*
+    右侧表格风机
+*/
+
+.container-right {
+    margin-left: 2px;
+    width: 89.5%;
+    float: right;
+    border: 1px solid rgb(62, 90, 112);
+    height: 96.5%;
+}
+
+.container-right-top {
+    width: 100%;
+    height: 65%;
+}
+
+.middle-table {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.middle-table-top {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(62, 90, 112, 0.3);
+}
+
+.middle-table-top ul {
+    margin-left: 10px;
+}
+
+.middle-table-top ul li {
+    background-color: rgb(36, 80, 109);
+    float: left;
+    width: 111px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 6px;
+    border-radius: 5px 5px 0px 0px;
+    transform: perspective(65px) rotateX(12deg);
+}
+
+.middle-table-top ul li:hover {
+    background-color: rgb(50, 124, 159);
+}
+
+.middle-table-input {
+    width: 100%;
+    float: left;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inputmodel {
+    -web-kit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(62, 90, 112);
+    color: #6a6f77;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    background-color: rgba(28, 45, 65, 0.5);
+    height: 23px;
+}
+
+.table-box {
+    float: left;
+    width: 100%;
+    overflow: auto;
+    height: 85%;
+    margin-top: 10px;
+    border: 2px solid rgb(62, 90, 112);
+    border-left: 0px;
+}
+
+
+/*table*/
+
+.table-bordered {
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    border-spacing: 0px;
+}
+
+.table-bordered tr {
+    height: 30px;
+}
+
+.table-bordered td {
+    border-left: solid 2px rgb(62, 90, 112);
+}
+
+
+/*table*/
+
+.middle-picture {
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: rgba(24, 41, 61, 0.5);
+}
+
+.container-right-bottom {
+    width: 100%;
+    float: left;
+    height: 30%;
+}
+
+.bottom-left {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.bottom-right {
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+.container {
+    background-color: rgba(55, 55, 55, 0.5);
+    width: 100%;
+}
+
+.containerheader {
+    background-color: rgb(104, 112, 115);
+    padding: 5px 0px;
+    padding-left: 7px;
+    color: aliceblue;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2?t=1637320655844') format('woff2'), url('../font/iconfont.woff?t=1637320655844') format('woff'), url('../font/iconfont.ttf?t=1637320655844') format('truetype');
+}

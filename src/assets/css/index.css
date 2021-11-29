@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+    min-width: 1519px;
+    min-height: 728px;
+    background-color: rgb(0, 37, 89);
+}
+
+.backgroundblock {
+    width: 100%;
+    height: 728px;
+    background: url(../image/bgimg2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    position: relative;
+    background: url(../image/header.png) no-repeat;
+    height: 80px;
+    background-size: 100% 100%;
+}
+
+header li {
+    float: right;
+    list-style: none;
+}
+
+header .nav {
+    padding-right: 40px;
+}
+
+header .nav ul li a {
+    display: block;
+    height: 63px;
+    padding: 0 25px;
+    line-height: 63px;
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid #cccccc;
+}
+
+header .headnav:hover {
+    background-image: radial-gradient(rgba(95, 136, 160, 0.9), rgba(46, 72, 92, 0.9));
+    border-bottom: rgb(47, 210, 251) solid 5px;
+}
+
+header .showTime {
+    position: absolute;
+    left: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 60px;
+    top: 0;
+}
+
+.mainbox {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 8px 8px 0;
+}
+
+.panel-top-left {
+    float: left;
+    height: 500px;
+    /* width: 350px; */
+    width: 33.3%;
+    border: 2px solid rgb(32, 43, 60);
+    background-color: rgba(2, 43, 60, 0.7);
+    /* margin-bottom: 10px; */
+}
+
+.panel-left {
+    float: left;
+    width: 72%;
+}
+
+.panel-top {
+    float: left;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.panel-bottom {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.map {
+    float: right;
+    margin-top: 2px;
+    height: 500px;
+    width: 66.1%;
+}
+
+.mainbox .panel-top .panel-top-left h4,
+.column .panel h4 {
+    padding-left: 10px;
+    height: 38px;
+    width: 100%;
+    color: white;
+    line-height: 38px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(49, 125, 158);
+}
+
+.mainbox .panel-top .input-div,
+.column .panel .input-div {
+    margin-top: 20px;
+    font-size: 8px;
+    color: white;
+}
+
+.column .panel .input-div {
+    margin-top: 7px;
+}
+
+.mainbox .panel-top .panel-left-table {
+    width: 100%;
+    height: 395px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.table-bordered {
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    border-spacing: 0px;
+}
+
+.table-bordered tr {
+    height: 30px;
+}
+
+.table-bordered td {
+    border-left: solid 2px rgb(62, 90, 112);
+}
+
+.panel-right {
+    width: 28%;
+    float: right;
+    border: 2px solid rgb(32, 43, 60);
+    background-color: rgba(2, 43, 60, 0.8);
+}
+
+.panel-right-table {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    margin-top: 10px;
+}
